@@ -1,0 +1,37 @@
+{
+	"name": "admin-template",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"analyzer": "cross-env use_analyzer=true npm run serve",
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"core-js": "^3.6.5",
+		"js-cookie": "^3.0.1",
+		"path-to-regexp": "^6.2.1"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.4.6",
+		"@vue/cli-plugin-eslint": "~4.4.6",
+		"@vue/cli-plugin-router": "~4.4.6",
+		"@vue/cli-plugin-vuex": "~4.4.6",
+		"@vue/cli-service": "~4.4.6",
+		"babel-eslint": "^10.1.0",
+		"babel-polyfill": "^6.26.0",
+		"compression-webpack-plugin": "5.0.1",
+		"cross-env": "^7.0.3",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.2.2",
+		"mockjs": "^1.1.0",
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2",
+		"svg-sprite-loader": "^6.0.11",
+		"terser-webpack-plugin": "4.2.3",
+		"vue-template-compiler": "^2.6.11",
+		"webpack-bundle-analyzer": "^4.5.0",
+		"webpack-cli": "^4.10.0"
+	}
+}
